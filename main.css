@@ -1,1 +1,56 @@
 /* Required content: class, id, margin/padding, font, background, width/height, border */
+* {
+    color: white;
+}
+
+html {
+    background-color: rgb(52, 48, 56);
+}
+
+h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+img {
+    width: 20vw;
+    object-fit: contain;
+    border: 2px solid rgb(95, 11, 78);
+    border-radius: 0 0 1em 1em;
+    box-shadow: 0.1em 0.1em 0.2em rgb(105, 177, 221);
+}
+
+#ancient-heading {
+    text-shadow: 0.2em 0.2em 0.8em rgb(105, 177, 221);
+    text-align: left;
+}
+
+#industrial-heading {
+    text-shadow: 0.2em 0.2em 0.8em rgb(105, 177, 221);
+    text-align: center;
+}
+
+#future-heading {
+    text-shadow: 0.2em 0.2em 0.8em rgb(105, 177, 221);
+    text-align: right;
+}
+
+.epoch {
+    border: 2px solid rgb(147, 50, 85);
+    border-radius: 0 1em 0 1em;
+    padding: 1em;
+}
+
+.ancient > div {
+    display: flex;
+    justify-content: left;
+}
+
+.industrial > div {
+    display: flex;
+    justify-content: center;
+}
+
+.future > div {
+    display: flex;
+    justify-content: right;
+}
